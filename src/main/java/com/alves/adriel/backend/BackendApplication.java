@@ -7,9 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 @SpringBootApplication
 public class BackendApplication {
-
     public static void main(String[] args) {
-
         SpringApplication.run(BackendApplication.class, args);
     }
 }
